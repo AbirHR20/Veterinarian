@@ -1,0 +1,127 @@
+@media (max-width : 575px){
+    #banner .bvideo{
+        padding-top: 100px;
+    }
+
+    #banner .banner{
+        position: static !important;
+    }
+
+    #banner .banner-text{
+        background-color: var(--brand);
+        padding: 30px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    #banner .banner-text h1{
+        font-size: 40px !important;
+    }
+
+    #banner .banner-text button{
+        margin-bottom: 10px !important;
+    }
+
+    #about .about{
+        padding: 0 !important;
+    }
+
+    #about h2{
+        font-size: 45px !important;
+    }
+
+    #about video{
+        padding: 30px 0px;
+    }
+
+    #service .service-item{
+        margin-bottom: 50px;
+    }
+
+    #love h2{
+        font-size: 45px !important;
+    }
+    
+    #pricing .p-item{
+        margin-bottom: 50px;
+    }
+
+    #team .team-item{
+        margin-bottom: 60px;
+    }
+
+    footer .size{
+        margin: 30px 0px;
+    }
+}
+
+/*
+small device ends
+*/
+
+@media (max-width : 767px){
+    #banner .bvideo{
+        padding-top: 100px;
+    }
+
+    #banner .banner{
+        position: static !important;
+    }
+
+    #banner .banner-text{
+        background-color: var(--brand);
+        padding: 30px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    #banner .banner-text h1{
+        font-size: 40px !important;
+    }
+
+    #banner .banner-text button{
+        margin-bottom: 10px !important;
+    }
+
+    #about .about{
+        padding: 0 !important;
+    }
+
+    #about h2{
+        font-size: 45px !important;
+    }
+
+    #about video{
+        padding: 30px 0px;
+    }
+
+    #service .service-item{
+        margin-bottom: 50px;
+    }
+
+    #love h2{
+        font-size: 45px !important;
+    }
+    
+    #pricing .p-item{
+        margin-bottom: 50px;
+    }
+
+    #team .team-item{
+        margin-bottom: 60px;
+    }
+
+    footer .size{
+        margin: 30px 0px;
+    }
+}
+
+/*
+medium device ends
+*/

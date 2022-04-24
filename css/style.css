@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --ff : 'Poppins', sans-serif;
+    --brand : #fcc302 ;
+    --brand2 : #00bec9 ;
+}
+
+/*
+root css ends
+*/
+
+.p-reg{
+    font-family: var(--ff);
+    font-weight: 400;
+}
+
+.p-med{
+    font-family: var(--ff);
+    font-weight: 500;
+}
+
+.p-semi{
+    font-family: var(--ff);
+    font-weight: 600;
+}
+
+.p-bold{
+    font-family: var(--ff);
+    font-weight: 700;
+}
+
+/*
+font family css ends 
+*/
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+
+.fs-29{
+    font-size: 29px;
+}
+
+.fs-33{
+    font-size: 33px;
+}
+
+.fs-37{
+    font-size: 37px;
+}
+
+.fs-41{
+    font-size: 41px;
+}
+
+.fs-49{
+    font-size: 49px;
+}
+
+.fs-50{
+    font-size: 50px;
+}
+
+.fs-66{
+    font-size: 66px;
+}
+
+.fs-75{
+    font-size: 75px;
+}
+
+/*
+font css ends
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*
+common css ends
+*/
+
+nav{
+    background-color: var(--brand);
+}
+
+nav .btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+nav .btn-outline-success:hover{
+    color: var(--brand2);
+    border-color: var(--brand2);
+    background-color: var(--brand2);
+}
+
+nav .btn-outline-success:hover i{
+    color: #fff;
+}
+
+.navfix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #daac00;
+    animation: fix linear 1s;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+@keyframes fix{
+    from{
+        top: -50px;
+    }
+    to{
+        top: 0px;
+    }
+}
+
+/*
+navbar css ends
+*/
+
+#banner .banner{
+    left: 20%;
+}
+
+/*
+banner css ends
+*/
+
+#about .about{
+    padding: 150px 0px;
+}
+
+#about .about .a-text h3{
+    padding: 30px 0px;
+}
+
+/*
+about css ends
+*/
+
+#service .service{
+    background-color: var(--brand);
+    padding: 100px 0px;
+}
+
+#service .service header{
+    padding-bottom: 100px;
+}
+
+#service .service .service-item .service-text{
+    padding-top: 30px;
+}
+
+/*
+service css ends
+*/
+
+
+#love .love{
+    padding: 150px 0px;
+}
+
+#love .love .lovev::after{
+    content: '';
+    background-color: rgba(218, 171, 0, 0.50);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#love .love .lovev .icon{
+    padding: 15px 20px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+#love .love .lovev .icon i{
+    color: var(--brand);
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+
+#love .love .lshape {
+	top: 58%;
+	left: 28%;
+	z-index: -1;
+}
+
+#love .love .l-text h2{
+    padding-top: 5%;
+}
+
+#love .love .l-text h3{
+    margin: 30px 0;
+    padding-left: 20%;
+}
+
+/*
+love css ends
+*/
+
+#pricing .pricing{
+    background-color: var(--brand);
+    padding: 100px 0px;
+}
+
+#pricing .pricing header{
+    padding-bottom: 100px;
+}
+
+#pricing .pricing .p-item h2{
+    padding: 30px 0px;
+}
+
+#pricing .pricing .p-item h2 del{
+    padding-right: 15px;
+}
+
+/*
+pricing css ends
+*/
+
+#team .team{
+    padding: 100px 0px;
+}
+
+#team .team header{
+    padding-bottom: 100px;
+}
+
+#team .team .team-item h2{
+    padding-top: 30px;
+}
+
+#team .team .team-item h3{
+    padding: 20px 0px;
+}
+
+#team .team .team-item ul a{
+    padding: 10px 16px;
+    background-color: var(--brand);
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*
+team css ends
+*/
+
+#counter {
+    margin-bottom: 100px;
+}
+
+#counter .counter-item{
+    margin-top: 20%;
+}
+
+#counter .parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+/*
+counter css ends
+*/
+
+#post .post{
+    padding-bottom: 100px;
+}
+
+#post .post .post-item{
+    padding: 20px;
+    transform: scale(0.8);
+    filter: grayscale(1);
+    transition: all linear .4s;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#post .slick-center .post-item {
+    transform: scale(1);
+    filter: grayscale(0);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-filter: grayscale(0);
+}
+
+/*
+post css ends
+*/
+
+footer{
+    background-color: #343434;
+    padding: 100px 0px;
+}
